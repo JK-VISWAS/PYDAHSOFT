@@ -33,7 +33,8 @@ document.addEventListener('DOMContentLoaded', initializeTheme);
 initializeTheme();
 
 // Hamburger Menu Toggle
-hamburger.addEventListener('click', () => {
+hamburger.addEventListener('click', (e) => {
+    e.stopPropagation(); // Prevent event from bubbling up
     navLinks.classList.toggle('active');
     document.body.classList.toggle('menu-open');
     const spans = hamburger.querySelectorAll('span');

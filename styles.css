@@ -781,6 +781,13 @@ section h2 {
     box-shadow: 0 5px 15px var(--shadow-color);
 }
 
+@media (max-width: 768px) {
+    .contact-container {
+        grid-template-columns: 1fr;
+        padding: 1.5rem;
+    }
+}
+
 .contact-info {
     padding: 2rem;
     background: linear-gradient(135deg, 
@@ -808,13 +815,26 @@ section h2 {
 
 .info-item {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     margin-bottom: 1.5rem;
     animation: float 3s ease-in-out infinite;
     background: rgba(255, 255, 255, 0.1);
     padding: 1rem;
     border-radius: 8px;
     backdrop-filter: blur(5px);
+}
+
+@media (max-width: 480px) {
+    .info-item {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .info-item i {
+        margin-right: 0;
+        margin-bottom: 0.5rem;
+    }
 }
 
 .info-item i {
@@ -1179,12 +1199,13 @@ footer {
 
     .hamburger {
         display: block;
+        z-index: 1100;
     }
 
     .nav-links {
         display: none;
-        position: absolute;
-        top: 100%;
+        position: fixed;
+        top: 70px;
         left: 0;
         right: 0;
         background-color: var(--bg-primary);
@@ -1194,8 +1215,9 @@ footer {
         box-shadow: 0 5px 15px var(--shadow-color);
         border-radius: 0 0 10px 10px;
         z-index: 1000;
-        max-height: 80vh;
+        max-height: calc(100vh - 70px);
         overflow-y: auto;
+        width: 100%;
     }
 
     .nav-links.active {
@@ -1285,6 +1307,20 @@ footer {
     
     .contact-form .form-group {
         margin-bottom: 1.2rem;
+    }
+    
+    .contact-info {
+        padding: 1.5rem;
+    }
+    
+    .contact form {
+        padding: 1.5rem 1rem;
+    }
+    
+    .form-group input,
+    .form-group textarea {
+        padding: 0.8rem;
+        font-size: 0.9rem;
     }
     
     .footer-content {
