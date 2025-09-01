@@ -35,6 +35,7 @@ initializeTheme();
 // Hamburger Menu Toggle
 hamburger.addEventListener('click', () => {
     navLinks.classList.toggle('active');
+    document.body.classList.toggle('menu-open');
     const spans = hamburger.querySelectorAll('span');
     spans[0].style.transform = navLinks.classList.contains('active') ? 'rotate(45deg) translate(8px, 8px)' : '';
     spans[1].style.opacity = navLinks.classList.contains('active') ? '0' : '1';
@@ -45,9 +46,39 @@ hamburger.addEventListener('click', () => {
 document.addEventListener('click', (e) => {
     if (!hamburger.contains(e.target) && !navLinks.contains(e.target)) {
         navLinks.classList.remove('active');
+        document.body.classList.remove('menu-open');
         const spans = hamburger.querySelectorAll('span');
         spans.forEach(span => span.style = '');
     }
+});
+
+// Close menu when clicking on a navigation link and implement smooth scrolling
+document.querySelectorAll('.nav-links a').forEach(link => {
+    link.addEventListener('click', (e) => {
+        // Close the mobile menu
+        navLinks.classList.remove('active');
+        document.body.classList.remove('menu-open');
+        const spans = hamburger.querySelectorAll('span');
+        spans.forEach(span => span.style = '');
+        
+        // Implement smooth scrolling for navigation links
+        if (link.getAttribute('href').startsWith('#')) {
+            e.preventDefault();
+            const targetId = link.getAttribute('href');
+            const targetElement = document.querySelector(targetId);
+            
+            if (targetElement) {
+                // Get the header height to offset the scroll position
+                const headerHeight = document.querySelector('header').offsetHeight;
+                const targetPosition = targetElement.getBoundingClientRect().top + window.pageYOffset - headerHeight;
+                
+                window.scrollTo({
+                    top: targetPosition,
+                    behavior: 'smooth'
+                });
+            }
+        }
+    });
 });
 
 // Theme Toggle
