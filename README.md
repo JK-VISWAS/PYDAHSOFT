@@ -110,7 +110,7 @@ pydahsoft-landing-page/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/pydahsoft.git
+   git clone [https://github.com/JK-VISWAS/PYDAHSOFT.git]
    ```
 
 2. **Navigate to project directory**
@@ -130,7 +130,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## 📞 Contact
 
 **PydahSoft Team**
-- Website: [https://jk-viswas.github.io/PYDAHSOFT/](https://jk-viswas.github.io/PYDAHSOFT/)
+- Website: (https://jk-viswas.github.io/PYDAHSOFT/)
 - Email: info@pydahsoft.com
 - GitHub: [JK-VISWAS](https://github.com/JK-VISWAS)
 
