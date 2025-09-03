@@ -1,6 +1,6 @@
 # PydahSoft - Innovative Software Solutions
 
-A modern, responsive landing page for PydahSoft, showcasing innovative software solutions for the future. Built with pure HTML, CSS, and JavaScript without any frameworks.
+PydahSoft is a cutting-edge software development company dedicated to creating innovative solutions that drive digital transformation across industries. This repository contains the official company landing page - a sophisticated, enterprise-grade web presence built with modern web technologies.
 
 ## 🌟 Features
 
@@ -12,22 +12,36 @@ A modern, responsive landing page for PydahSoft, showcasing innovative software 
 
 ## 📋 Sections
 
-### 🏠 Home
+### 🏠 Home:
+
+<img width="1920" height="1080" alt="Screenshot (262)" src="https://github.com/user-attachments/assets/bf886f29-f2d7-4c00-9a8e-0046e4f94a05" />
+
 - Hero section with compelling headline
 - Call-to-action buttons (Learn More, Contact Us)
 - Modern cityscape background with overlay
 
-### ℹ️ About Us
+### ℹ️ About Us:
+
+<img width="1920" height="1080" alt="Screenshot (263)" src="https://github.com/user-attachments/assets/f84906af-d41a-484c-bd53-e38b0115cdae" />
+
 - Company overview and mission statement
 - Focus on digital transformation and innovation
 - Professional content presentation
 
-### 🛠️ Our Services
+### 🛠️ Our Services:
+
+<img width="1920" height="1080" alt="Screenshot (264)" src="https://github.com/user-attachments/assets/6d20aea7-3c07-4999-aea7-e764d97b7e56" />
+
 - **Web Development** - Custom web applications and responsive websites
 - **Mobile Apps** - Native and cross-platform mobile applications
 - **UI/UX Design** - User-centered design solutions
 
-### 💡 Our Solutions
+### 💡 Our Solutions:
+
+<img width="1920" height="1080" alt="Screenshot (265)" src="https://github.com/user-attachments/assets/f7fa2ab4-fef5-47a9-a56b-26ef485956ba" />
+<img width="1920" height="1080" alt="Screenshot (266)" src="https://github.com/user-attachments/assets/f00fa901-8269-48fb-853b-3e3f9e6e3b81" />
+
+
 - **Face Attendance Software** - Advanced facial recognition for attendance tracking
 - **AI Lab Inventory** - Smart laboratory inventory management system
 - **E-commerce Platform** - Complete online retail solution
@@ -35,7 +49,10 @@ A modern, responsive landing page for PydahSoft, showcasing innovative software 
 - **Leave Management** - Streamlined leave management for organizations
 - **Restaurant Management** - All-in-one restaurant operations system
 
-### 👥 We're Hiring
+### 👥 We're Hiring:
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e4018e8d-0495-44e1-8a42-9019f64607fe" />
+
 - **Flutter Developer** (Full Time)
 - **Digital Marketing Executive** (Full Time)
 - Detailed job requirements and application process
@@ -93,82 +110,18 @@ pydahsoft-landing-page/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/pydahsoft-landing-page.git
+   git clone https://github.com/yourusername/pydahsoft.git
    ```
 
 2. **Navigate to project directory**
    ```bash
-   cd pydahsoft-landing-page
+   cd pydahsoft
    ```
 
 3. **Open in browser**
    - Simply double-click `index.html`
    - Or serve using a local server for development
 
-### Development Server
-
-For development, you can use any local server:
-
-```bash
-# Using Python 3
-python -m http.server 8000
-
-# Using Node.js (if you have live-server installed)
-live-server
-
-# Using PHP
-php -S localhost:8000
-```
-
-Then visit `http://localhost:8000` in your browser.
-
-## 🔧 Customization
-
-### Colors
-Update the color scheme by modifying CSS variables in `styles/style.css`:
-
-```css
-:root {
-  --primary-color: #4CAF50;
-  --secondary-color: #45a049;
-  --text-dark: #333;
-  --text-light: #666;
-}
-```
-
-### Content
-- Update company information in `index.html`
-- Modify service descriptions and features
-- Add or remove solution cards as needed
-- Update job listings in the careers section
-
-### Images
-- Replace hero background image
-- Update service and solution images
-- Ensure all images are optimized for web (WebP format recommended)
-
-## 🌐 Browser Support
-
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
-- Internet Explorer 11+
-
-## 📈 Performance
-
-- **Lighthouse Score**: 95+ (Performance, Accessibility, Best Practices, SEO)
-- **Load Time**: < 3 seconds on 3G connection
-- **Image Optimization**: All images optimized and properly sized
-- **Code Minification**: CSS and JS minified for production
-
-## 🤝 Contributing
-
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 ## 📄 License
 
@@ -179,17 +132,10 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 **PydahSoft Team**
 - Website: [https://jk-viswas.github.io/PYDAHSOFT/](https://jk-viswas.github.io/PYDAHSOFT/)
 - Email: info@pydahsoft.com
-- GitHub: [JK-VISWAS](https://github.com/)
+- GitHub: [JK-VISWAS](https://github.com/JK-VISWAS)
 
-## 🙏 Acknowledgments
 
-- Modern web design inspiration
-- Font Awesome for icons
-- Google Fonts for typography
-- Unsplash for stock imagery (if used)
 
----
 
-⭐ **Star this repository if you found it helpful!**
 
-*Built with ❤️ by the PydahSoft development team*
+
