@@ -2,6 +2,8 @@
 
 PydahSoft is a cutting-edge software development company dedicated to creating innovative solutions that drive digital transformation across industries. This repository contains the official company landing page - a sophisticated, enterprise-grade web presence built with modern web technologies.
 
+WEBSITE PREVIEW :https://jk-viswas.github.io/PYDAHSOFT/
+
 ## 🌟 Features
 
 - **Responsive Design** - Fully responsive across all devices and screen sizes
@@ -81,24 +83,7 @@ The website is fully responsive and optimized for:
 - **Animations** - Smooth CSS transitions and hover effects
 - **Cards** - Modern card-based design for services and solutions
 
-## 📁 Project Structure
 
-```
-pydahsoft-landing-page/
-│
-├── index.html              # Main HTML file
-├── styles/
-│   └── style.css          # Main stylesheet
-├── scripts/
-│   └── script.js          # JavaScript functionality
-├── images/
-│   ├── hero-bg.jpg        # Hero section background
-│   ├── services/          # Service section images
-│   └── solutions/         # Solution section images
-├── assets/
-│   └── favicon.ico        # Website favicon
-└── README.md              # Project documentation
-```
 
 ## 🚀 Getting Started
 
@@ -110,12 +95,12 @@ pydahsoft-landing-page/
 
 1. **Clone the repository**
    ```bash
-   git clone [https://github.com/JK-VISWAS/PYDAHSOFT.git]
+   git clone https://github.com/JK-VISWAS/PYDAHSOFT.git
    ```
 
 2. **Navigate to project directory**
    ```bash
-   cd pydahsoft
+   cd PYDAHSOFT
    ```
 
 3. **Open in browser**
@@ -130,7 +115,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ## 📞 Contact
 
 **PydahSoft Team**
-- Website: (https://jk-viswas.github.io/PYDAHSOFT/)
+- Website: https://jk-viswas.github.io/PYDAHSOFT/
 - Email: info@pydahsoft.com
 - GitHub: [JK-VISWAS](https://github.com/JK-VISWAS)
 
